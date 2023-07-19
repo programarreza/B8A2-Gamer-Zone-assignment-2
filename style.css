@@ -275,6 +275,72 @@ ul li a {
 	font-weight: 600;
 	margin-left: 8px;
 }
+/* games link section end here */
+
+
+
+/* footer section start here */
+.footer {
+	padding: 100px;
+	background: #0B0223;
+	text-align: center;
+}
+.logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo img {
+	width: 86px;
+	height: 40px;
+}
+.footer-title {
+	font-size: 2.8rem;
+	font-weight: 700;
+	color: #fff;
+	margin-left: 20px;
+}
+.footer-title span {
+	color: #FF42A5;
+}
+.our-service ul {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	margin: 50px auto;
+}
+.our-service ul li {
+	margin-left: 30px;
+}
+.our-service ul li a{
+	color: #fff;
+}
+.social-link {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	width: 500px;
+	margin: 50px auto;
+}
+.social-link a {
+	margin-right: 40px;
+}
+.social-link a i {
+	color: #fff;
+	font-size: 2rem;
+}
+.our-conditions a{
+	color: rgba(255, 255, 255, 0.60);
+	font-weight: 500;
+	margin-right: 60px;
+	text-decoration: none;
+}
+.our-conditions a:hover {
+	text-decoration: underline;
+}
+.footer-description {
+	color: rgba(255, 255, 255, 0.60);
+	margin-top: 30px;
+}
+/* footer section end here */
 
 
 
@@ -359,7 +425,7 @@ ul li a {
 
 	/* games link section start here */
 	.games-link{
-		
+		margin: 60px 0;
 	}
 	.games-link-container{
 		gap: 0;
@@ -376,7 +442,38 @@ ul li a {
 			margin-left: 5px;
 			line-height: 10px;
 		}
-
+		/* footer section start here */
+		.footer{
+			padding:50px 0;
+		}
+		.our-service ul{
+			grid-template-columns: repeat(3, 1fr);
+			margin: 0 0 30px 0;
+		}
+		.our-service ul li {
+			margin-left: 0px;
+			margin-top: 20px;
+		}
+		.our-service ul li a{
+			font-size: 14px;
+		}
+		.social-link {
+			grid-template-columns: repeat(3, 1fr);
+			width: 100%;
+			margin: 0;
+		}
+		.social-link a {
+			margin-bottom: 40px;
+		}
+		.our-conditions a{
+			display: inline-block;
+			margin-bottom: 20px;
+			margin-right: 15px;
+		}
+		.footer-description {
+			padding: 0 50px;
+		}
+		/* footer section end here */
 
 }
 
@@ -442,5 +539,25 @@ ul li a {
 		padding: 0 25px ;
 	}
 	/* play instantly section end here */
+	
+
+	/* games link section start here */
+	.games-link {
+		padding: 100px 20px;
+		justify-content: none;
+		text-align: center;
+		align-items: center;
+	}
+	/* footer section start here */
+	.footer {
+		padding: 50px 20px;
+	}
+	.our-service ul li{
+		margin-left: 0;
+	}
+	.our-service ul li a{
+		font-size: 15px;
+	}
+	/* footer section end here */
 
 }
